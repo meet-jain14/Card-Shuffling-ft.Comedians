@@ -1,0 +1,71 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+/* h1{
+    font-family: 'script';
+    background-color: black;
+    color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 20px;
+    font-weight: bolder;
+} */
+
+#main{
+    height: 100%;
+    width:  100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    position: absolute;
+    height: 300px;
+    width: 240px;
+    border: 1px solid wheat;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card:hover{
+    z-index: 50;
+}
+
+img{
+    width:100%;
+    height:100%;
+}
+
+#akash{
+     rotate: -20deg;
+        background-color: white;
+}
+
+#upmanu{
+    rotate: -15deg;
+    background-color: brown;
+}
+
+#bassi{
+    rotate: -10deg;
+    background-color:black;
+}
+
+#samay{
+    rotate: -5deg;
+    background-color: red;   
+}
+
+#zakir{
+    background-color: slategrey;
+}
